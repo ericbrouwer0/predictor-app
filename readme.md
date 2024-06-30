@@ -25,6 +25,12 @@ The primary use of this project is to forecast the closing prices of financial d
 5. **Plot Results**: Visualize the true vs. predicted values.
 6. **Note**: If adding or removing rolling windows, be sure to reset the model and data (since the features change in dimensions)
 
+
+![App Interface](images/app.PNG)
+
+The image above shows the interface of the Time Series Forecasting App. Users can upload data, select models, and visualize the results using this intuitive interface.
+
+
 ## Improvements
 
 Several improvements have been made to the original code to enhance its functionality and performance:
@@ -53,6 +59,8 @@ Several improvements have been made to the original code to enhance its function
 
 6. **Plotting and Visualization**:
    - A Plotly-based interactive plotting system is integrated with Streamlit for visualizing predictions. (Mainly for user experience.)
+
+![Example Plot](images/plot.PNG)
 
 ## Code Structure
 
